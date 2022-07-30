@@ -9,7 +9,7 @@ Approximately
 - CSS attribute selectors
 ## Deployed Link
 
-[Restaurant Landing Page]()
+[Restaurant Landing Page](https://logorestaurant.netlify.app/)
 
 ### Snapshot of the Webpage
 
