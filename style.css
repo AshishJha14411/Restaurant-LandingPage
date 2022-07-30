@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+.container{
+  background-image: url(./assets/1.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+.container::before{
+  background-color: #3f475cc0;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+section{
+  position: fixed;
+  z-index: 4;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  
+}
+.button-small{
+  margin-left: -12rem;
+  width: 8rem;
+  height: 3rem;
+  background-color: #FF505F;
+  color: white;
+  border: none;
+  font-family: 'Red Rose';
+  font-size: 20px;
+}
+
+
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50vw;
+  margin-top: 1rem;
+  margin-left: -20rem;
+}
+li{
+  list-style: none;
+  
+  font-family: 'Red Rose';
+  color:#FFC233;
+}
+.list-tem{
+  margin: 2rem;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero-heading{
+  display: absolute;
+  margin-top: 15%;
+  margin-left: 30%;
+  font-size: 90px;
+  width: 60vw;
+  font-family: 'Red Rose';
+  font-weight: 700;
+  color:#FFC233;
+  text-align: center;
+}
+.button-large{
+  width: 15rem;
+  height: 4rem;
+  margin-left: 70%;
+  margin-top: 3rem;
+  font-size: 20px;
+  background-color:#FF505F;
+  border: none;
+  color: white;
+}
+
+img[alt=bottom-logo]{
+  margin-left: 140%;
+  margin-top: -5rem;
+}
